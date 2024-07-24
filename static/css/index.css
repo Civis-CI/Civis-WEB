@@ -1,0 +1,115 @@
+body{
+    background-image: url('../images/Night-City-PNG-File-Download-Free.png');
+    background-blend-mode: darken;
+    /*background-repeat: no-repeat;
+    background-size: cover;*/
+    backdrop-filter: blur(2px);
+    overflow: hidden;
+    margin: 0;
+
+    background-color: #81b0a8;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.quadrado_login{
+    background-image: url('../images/LOGO\ CIVIS\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position-x: 50%;
+    background-position-y: 15%;
+
+    width: 30vw;
+    height: 80vh;
+    border-radius: 15px;
+
+    background-color: rgba(245, 245, 245, 0.879);
+}
+
+.itens_login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 55% 0% 0%;
+    width: 100%;
+    height: 50%;
+
+} .itens_login button{
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+
+    margin-top: 8%;
+    width: 60%;
+    height: 20%;
+
+    background: linear-gradient(to bottom, #13c98f, #13C9AB);
+    color: white;
+
+} .itens_login button:hover{
+    box-shadow: #0e8c75 2px 2px 3px;
+
+} #password{
+    height: 90%;
+    width: 90%;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+} #username{
+    height: 90%;
+    width: 90%;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+}
+
+#esqueci_senha{
+    text-decoration: underline;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 8%;
+    font-size: 75%;
+}
+
+#espaco_email{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: #13c98f 1px 1px 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 15%;
+    background-color: white;
+    margin-bottom: 5%;
+}
+
+#espaco_senha{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: #13c98f 1px 1px 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 15%;
+    background-color: white;
+}
+
+#imagem_pessoa{
+    width: 8%;
+    height: 65%;
+    margin-right: 2%;
+    margin-left: 2%;
+    background-size: 100%;
+    background-image: url("../images/pessoa.png");
+
+} #imagem_cadeado{
+    width: 8%;
+    height: 70%;
+    margin-right: 2%;
+    margin-left: 2%;
+    background-size: 100%;
+    background-image: url("../images/cadeado.png");
+}

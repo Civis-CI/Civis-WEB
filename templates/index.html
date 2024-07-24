@@ -1,0 +1,28 @@
+{% extends 'skeleton.html' %}
+
+{% block head %}
+<!-- Adicione o cabeçalho, se necessário -->
+{% endblock %}
+
+{% block body %}
+<maincontent class="container">
+    <div class="quadrado_login">
+        <form class="itens_login" action="index" method="post" id="loginForm">
+            <div id="espaco_email">
+                <label for="username" id="imagem_pessoa"></label>
+                <input type="text" placeholder="E-MAIL" name="email" id="username" required autocomplete="off" autocorrect="off" autocapitalize="off">
+            </div>
+            <div id="espaco_senha">
+                <label for="password" id="imagem_cadeado"></label>
+                <input type="password" placeholder="SENHA" id="password" name="senha" required autocomplete="off" autocorrect="off" autocapitalize="off">
+            </div>
+            <p id="esqueci_senha">Esqueceu sua senha?</p>
+            <button type="submit" id="entrarButton">Entrar</button>
+        </form>
+    </div>
+</maincontent>
+
+<script>
+    
+</script>
+{% endblock %}
